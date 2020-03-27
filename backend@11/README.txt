@@ -57,3 +57,28 @@ $ npx knex migrate:make create_incidents
 npm install cors
 
 
+TEST
+
+npm i jest 
+npx jest --init 
+
+$ npm install cross-env
+
+
+https://github.com/visionmedia/supertest
+$ npm i supertest -D
+$ npm test 
+
+hospedagem: backend
+Heroku -> hospedagem 
+digital ocean
+
+deploy heroku node
+deploy de app nodejs
+styled component 
+- devOps : hospedagem de apps 
+
+hospedagem: frontend\
+netlify -> especifico pra fronend 
+gerando apk expo 
+

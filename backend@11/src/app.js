@@ -4,6 +4,8 @@ const cors = require('cors')
 const routes = require('./routes');
 // caminho relativo pois estamos nos referindo a uma file do projeto
 
+const { errors } = require('celebrate');
+
 
 const app = express();
 
@@ -14,9 +16,11 @@ app.use(express.json());
 
 // para usarmos as rotas que agora estao em outro arquivo
 app.use(routes);
+app.use(errors());
 
-app.listen(3333);
+// app.listen(3333);
 
 
+module.exports = app;
 // initially use node index.js to run this application
 // open in broser http://localhost:3333/
